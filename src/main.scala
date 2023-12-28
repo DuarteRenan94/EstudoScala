@@ -6,13 +6,13 @@ object Main {
     println(AppData.NOME_APLICACAO)
 
     val alc = PessoaFisica()
-    alc.nome("Alcides Mancha")
+    alc.nome("Alcides")
     alc.cpf("000.111.222-33")
     alc.idade(20)
     val contaAlc:ContaPF = ContaPF(alc, "0001", "12345-6") // Criada a conta do Alcides
 
     val josefa = PessoaFisica()
-    josefa.nome("Josefa Rofa")
+    josefa.nome("Josefa")
     josefa.idade(40)
     josefa.cpf("456.123.888-01")
     val contaJos = ContaPF(josefa, "1313", "45612-5")
@@ -20,9 +20,9 @@ object Main {
     //Operações Básicas
     /*
     * Josefa vai transferir R$ 300,00 pro Alcides. Porém, o décimo dela ainda não caiu. O que precisa?
-    * Depositar o décimo da mulher, mana!
+    * Depositar o décimo
     * */
-    contaJos.depositar(1500.30) //Agora o natal vai ser bom heheee
+    contaJos.depositar(1500.30) //Agora o natal vai ser bom hehee
     contaJos.exibirExtrato
     contaAlc.exibirExtrato
     contaJos.transferir(contaAlc, 300)
