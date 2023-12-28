@@ -1,5 +1,4 @@
-package com.renanduarte.scala
-package entidades
+package com.renanduarte.estudoscala.entidades
 
 import scala.annotation.tailrec
 

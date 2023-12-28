@@ -1,4 +1,4 @@
-package com.renanduarte.scala
+package com.renanduarte.estudoscala
 package entidades
 
 abstract class Pessoa {

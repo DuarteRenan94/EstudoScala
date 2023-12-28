@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="32fc31c3-a33d-4c1d-b4a1-65a8a3ea283a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EstudoScala.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/renanduarte/estudoscala/entidades/PessoaFisica.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppData.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/renanduarte/estudoscala/AppData.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entidades/Conta.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/renanduarte/estudoscala/entidades/Conta.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entidades/ContaPF.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/renanduarte/estudoscala/entidades/ContaPF.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entidades/ContaPJ.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/renanduarte/estudoscala/entidades/ContaPJ.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entidades/Pessoa.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/renanduarte/estudoscala/entidades/Pessoa.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entidades/PessoaFisica.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entidades/PessoaJuridica.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/renanduarte/estudoscala/entidades/PessoaJuridica.scala" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2aAtP7fH0q97J1W5iiADFNa6wzu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="32fc31c3-a33d-4c1d-b4a1-65a8a3ea283a" name="Changes" comment="" />
+      <created>1703773185673</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703773185673</updated>
+    </task>
+    <servers />
+  </component>
+</project>

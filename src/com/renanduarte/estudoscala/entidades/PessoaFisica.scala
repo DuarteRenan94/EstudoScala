@@ -1,5 +1,4 @@
-package com.renanduarte.scala
-package entidades
+package com.renanduarte.estudoscala.entidades
 
 class PessoaFisica extends Pessoa{
   private var _cpf:String = "000.000.000-00"

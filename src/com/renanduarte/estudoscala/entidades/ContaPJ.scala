@@ -1,5 +1,6 @@
-package com.renanduarte.scala
-package entidades
+package com.renanduarte.estudoscala.entidades
+import com.renanduarte.estudoscala.AppData
+
 
 class ContaPJ(oTitular:PessoaJuridica, agencia:String, conta:String) extends Conta{
   private val _titular:PessoaJuridica = oTitular

@@ -1,9 +1,5 @@
-package com.renanduarte.scala
-
-import entidades.PessoaFisica
-import entidades.PessoaJuridica
-import entidades.ContaPF
-import entidades.ContaPJ
+import com.renanduarte.estudoscala.AppData
+import com.renanduarte.estudoscala.entidades.{ContaPF, ContaPJ, PessoaFisica, PessoaJuridica}
 
 object Main {
   def main(args: Array[String]): Unit = {
@@ -12,12 +8,12 @@ object Main {
     val alc = PessoaFisica()
     alc.nome("Alcides Mancha")
     alc.cpf("000.111.222-33")
-    alc.idade(200)
+    alc.idade(20)
     val contaAlc:ContaPF = ContaPF(alc, "0001", "12345-6") // Criada a conta do Alcides
 
     val josefa = PessoaFisica()
     josefa.nome("Josefa Rofa")
-    josefa.idade(1500)
+    josefa.idade(40)
     josefa.cpf("456.123.888-01")
     val contaJos = ContaPF(josefa, "1313", "45612-5")
 
@@ -34,8 +30,7 @@ object Main {
     contaAlc.exibirExtrato
 
     val firma = PessoaJuridica()
-    firma.nome("Loja do Chinês")
-    firma.idade(5000)
+    firma.nome("Loja Tudo Barato")
     val caixaEmpresa = ContaPJ(firma, "0001", "13200-4")
     caixaEmpresa.depositar(150000000.50)
     firma.contratar(josefa)
