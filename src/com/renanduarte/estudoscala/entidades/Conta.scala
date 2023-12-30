@@ -1,29 +1,25 @@
 package com.renanduarte.estudoscala.entidades
 
 abstract class Conta {
-  //Valores default, caso contrário, seriam campos abstratos
+  //Valores default, caso contrário, seriam campos abstratos 
   private var _saldo:Double = 0.0
-  private var _agencia:String = ""
-  private var _conta:String = ""
+  private var _agencia = Agencia()
+  private var _banco = Banco()
+  private var _numero:String = ""
   
-  //Getters
-  def agencia:String = _agencia
-  def conta:String = _conta
+  //Getters e setters
   def saldo:Double = _saldo
+  def saldo(oSaldo:Double):Unit = _saldo = oSaldo
   
-  //Setters
-  def agencia(aAgencia:String):Unit = _agencia = aAgencia
-  def conta(aConta:String):Unit = _conta = aConta
+  def agencia:Agencia = _agencia
+  def agencia(aAgencia:Agencia):Unit = _agencia = aAgencia
   
-  //Operações básicas
-  def depositar(quantia: Double): Unit = _saldo += quantia
-  private def saldoSuficiente(quantia: Double): Boolean = _saldo > 0.0 && quantia <= _saldo
-  def sacar(quantia: Double): Unit = if (saldoSuficiente(quantia)) _saldo -= quantia
-  def transferir(outraConta: Conta, quantia: Double): Unit = {
-    if (saldoSuficiente(quantia)) sacar(quantia);
-    outraConta.depositar(quantia)
-  }
+  def banco:Banco = _banco
+  def banco(oBanco:Banco):Unit = _banco = oBanco
   
-  //Método comum a todas as contas, com algumas particularidades
-  def exibirExtrato:Unit
+  def numero:String = _numero
+  def numero(oNumero:String):Unit = _numero = oNumero
+  
+  //Método comum a todas as findAll, com algumas particularidades
+  def exibirExtrato():Unit
 }

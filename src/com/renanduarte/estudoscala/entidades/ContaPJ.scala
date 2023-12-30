@@ -1,19 +1,18 @@
 package com.renanduarte.estudoscala.entidades
-import com.renanduarte.estudoscala.AppData
 
 
-class ContaPJ(oTitular:PessoaJuridica, agencia:String, conta:String) extends Conta{
-  private val _titular:PessoaJuridica = oTitular
-
+class ContaPJ extends Conta{
+  private var _titular:PessoaJuridica = PessoaJuridica()
+  
   def titular:PessoaJuridica = _titular
+  def titular(oTitular:PessoaJuridica):Unit = _titular = oTitular
 
-  override def exibirExtrato: Unit = {
+  override def exibirExtrato(): Unit = {
     println(
       s"""
-         | ${AppData.NOME_APLICACAO}
-         | AG: $agencia
-         | Conta: $conta
-         | Razão Social: ${titular.nome}
+         $agencia
+         | Conta: $numero
+         | Razão Social: ${_titular.nome}
          | Saldo: $saldo
          |""".stripMargin)
   }

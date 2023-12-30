@@ -5,35 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32fc31c3-a33d-4c1d-b4a1-65a8a3ea283a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EstudoScala.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/renanduarte/estudoscala/entidades/PessoaFisica.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppData.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/renanduarte/estudoscala/AppData.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entidades/Conta.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/renanduarte/estudoscala/entidades/Conta.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entidades/ContaPF.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/renanduarte/estudoscala/entidades/ContaPF.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entidades/ContaPJ.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/renanduarte/estudoscala/entidades/ContaPJ.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entidades/Pessoa.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/renanduarte/estudoscala/entidades/Pessoa.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entidades/PessoaFisica.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entidades/PessoaJuridica.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/renanduarte/estudoscala/entidades/PessoaJuridica.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/renanduarte/estudoscala/data/Operacoes.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/renanduarte/estudoscala/entidades/Agencia.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/renanduarte/estudoscala/entidades/Banco.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/renanduarte/estudoscala/home/ContaPFHome.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/renanduarte/estudoscala/home/mock/Agencias.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/renanduarte/estudoscala/home/mock/Bancos.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/renanduarte/estudoscala/home/mock/ContaManager.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/renanduarte/estudoscala/home/mock/Pessoas.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/renanduarte/estudoscala/AppData.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/renanduarte/estudoscala/AppData.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/renanduarte/estudoscala/entidades/Conta.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/renanduarte/estudoscala/entidades/Conta.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/renanduarte/estudoscala/entidades/ContaPF.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/renanduarte/estudoscala/entidades/ContaPF.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/renanduarte/estudoscala/entidades/ContaPJ.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/renanduarte/estudoscala/entidades/ContaPJ.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/renanduarte/estudoscala/entidades/PessoaFisica.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/renanduarte/estudoscala/entidades/PessoaFisica.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Package Object" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2aAtP7fH0q97J1W5iiADFNa6wzu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -41,16 +52,38 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Scala REPL.Scala REPL.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="Scala REPL" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="EstudoScala" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="javaOptions" value="" />
+      <option name="myConsoleArgs" value="" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Scala REPL.Scala REPL" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

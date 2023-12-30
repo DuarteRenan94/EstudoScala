@@ -1,20 +1,23 @@
 package com.renanduarte.estudoscala.entidades
-import com.renanduarte.estudoscala.AppData
 
-class ContaPF(oTitular:PessoaFisica, agencia:String, conta:String) extends Conta{
-  private val _titular:PessoaFisica = oTitular
+class ContaPF extends Conta{
+  private var _titular:PessoaFisica = PessoaFisica()
 
-  def titular:Pessoa = _titular
-
-  super.agencia(agencia)
-  super.conta(conta)
-
-  override def exibirExtrato:Unit =
+  def titular:PessoaFisica = _titular
+  def titular(oTitular:PessoaFisica):Unit = _titular = oTitular
+  override def exibirExtrato():Unit =
     println(s"""
-      | ${AppData.NOME_APLICACAO}
-      | AG: $agencia
-      | Conta: $conta
-      | Titular: ${titular.nome}
+      $agencia
+      | Conta: $numero
+      | Titular: ${_titular.nome}
       | Saldo: $saldo
+      | Movimentação: Ainda não implementado
       |""".stripMargin)
+
+  override def toString:String =
+    s"""
+       |$agencia
+       | Conta: $numero
+       | Titular: ${_titular.nome}
+       |""".stripMargin
 }
